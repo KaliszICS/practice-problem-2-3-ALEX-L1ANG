@@ -76,5 +76,24 @@ public class PracticeProblemTest {
    }
    // End of Test Cases - Question 3
 
-   
+   @Test
+   void hypotenuseTest1(){
+      assertEquals(Math.sqrt(41), PracticeProblem.hypotenuse(4, 5));
+   }
+   @Test
+   void hypotenuseTest2(){
+      assertEquals(Math.sqrt(25), PracticeProblem.hypotenuse(3, 4));
+   }
+   @Test
+   void hypotenuseTest3(){
+      assertEquals(Math.sqrt(5), PracticeProblem.hypotenuse(1, 2));
+   }
+   @Test
+   void hypotenuseTest4(){
+      assertEquals(Math.sqrt(1681), PracticeProblem.hypotenuse(9, 40));
+   }
+   @Test
+   void hypotenuseTest5(){
+      assertEquals(Math.sqrt(137.25), PracticeProblem.hypotenuse(7.5, 9));
+   }
 }
